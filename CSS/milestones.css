@@ -40,6 +40,7 @@ a{
     .myName::before{content:"Rodolfo";}
 }
 @media screen and (max-width: 1024px){.tipo_img{min-width: 50%;}}
+/* imagenes hito 3 */
 @media screen and (max-width: 912px)
 {
     .tipo_img{min-width: 100%;}
@@ -49,8 +50,17 @@ a{
         /* border: 1px solid red; */
         max-width: 100%;
     }
-    .button_guide{min-width: 100%;}
+    .button_guide
+    {
+        min-width: 70%;
+        content: url(../img/milestone3/Buttons_movil.png);
+    }
+    .panel_guide
+    {
+        min-width: 100%;
+    }
 }
+/* fin imagenes hito 3 */
 @media screen and (max-width: 458px)
 {
     .container{min-width: 100vw;}
@@ -167,6 +177,7 @@ a{
 .temas{
     font-weight: 400;
 }
+/* Imagenes del hito 3 */
 .tipo_img{width: 35%; margin: 0 auto; margin-bottom: 2rem;}
 .color_guide{
     /* border: 1px solid red; */
@@ -179,7 +190,12 @@ a{
     margin: 0 auto;
     margin-bottom: 2rem;
 }
-
+.panel_guide{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+/* FIn imagenes del hito 3 */
 .secondary_section{
     margin-bottom: 1rem;
     font-weight: 500;
