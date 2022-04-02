@@ -39,6 +39,18 @@ a{
     #fito{display: none;}
     .myName::before{content:"Rodolfo";}
 }
+@media screen and (max-width: 1024px){.tipo_img{min-width: 50%;}}
+@media screen and (max-width: 912px)
+{
+    .tipo_img{min-width: 100%;}
+    .color_guide img
+    {
+        content: url(../img/milestone3/color_movil.png);
+        /* border: 1px solid red; */
+        max-width: 100%;
+    }
+    .button_guide{min-width: 100%;}
+}
 @media screen and (max-width: 458px)
 {
     .container{min-width: 100vw;}
@@ -155,6 +167,18 @@ a{
 .temas{
     font-weight: 400;
 }
+.tipo_img{width: 35%; margin: 0 auto; margin-bottom: 2rem;}
+.color_guide{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.button_guide{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
 
 .secondary_section{
     margin-bottom: 1rem;
@@ -198,7 +222,6 @@ p{
 
 /* Tabla de Stakeholders */
 table{
-    /* border: 1px solid red; */
     width: 40%;    
 }
 table tr th{
