@@ -21,6 +21,8 @@
     .myName::before{content:"Rodolfo";}
 }
 
+/* tarjetas distribucion correcta */
+
 @media screen and (max-width: 940px)
 {
     .hide{display: none;}
@@ -43,6 +45,7 @@
 {
     li.nav{margin-right: 8px; margin-left: 8px;}
 }
+
 
 /* Para que no crezca mas de lo debido horizontalmente */
 @media screen and (min-width: 1152px)
@@ -146,7 +149,7 @@
 }
 /* Tarjetas */
 .tarjetas{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin-bottom: 2rem;
     display: flex;
     flex-wrap: wrap;
