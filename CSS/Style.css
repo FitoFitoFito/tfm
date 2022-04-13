@@ -149,7 +149,7 @@
 }
 /* Tarjetas */
 .tarjetas{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-bottom: 2rem;
     display: flex;
     flex-wrap: wrap;
