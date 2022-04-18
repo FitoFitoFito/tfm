@@ -27,10 +27,6 @@
 {
     .hide{display: none;}
     .ic_Prop{min-width: 22px;}
-    
-    /* #fito{display: none;} */
-    /* .myName::before{content:"Rodolfo";} */
-    
 }
 @media screen and (max-width: 639px)
 {
